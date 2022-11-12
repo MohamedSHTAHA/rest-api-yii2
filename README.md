@@ -43,3 +43,15 @@ FRACTAL HELPER FUNCTION
     $books = Book::find()->all();
     $fractal = Fractal::collection($books, new BookTransformer())->toArray();
 
+
+RESPONES  HELPER FUNCTION
+-------------------
+
+    --[  you can use function responseApi(code,message,data)   ] 
+
+    public function actionIndex()
+    {
+        $books = Book::find()->all();
+        $fractal = Fractal::collection($books, new BookTransformer())->toArray();
+        return $this->responseApi( 200 , 'Success' ,$fractal);
+    }
