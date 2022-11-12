@@ -48,6 +48,8 @@ RESPONES  HELPER FUNCTION
 -------------------
 
     [  you can use function responseApi(code,message,data)   ] 
+    
+    use ResponseApi;
 
     public function actionIndex()
     {
