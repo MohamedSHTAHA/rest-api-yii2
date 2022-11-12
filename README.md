@@ -47,7 +47,7 @@ FRACTAL HELPER FUNCTION
 RESPONES  HELPER FUNCTION
 -------------------
 
-    --[  you can use function responseApi(code,message,data)   ] 
+    [  you can use function responseApi(code,message,data)   ] 
 
     public function actionIndex()
     {
